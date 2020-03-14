@@ -1,0 +1,181 @@
+/* Custom type */
+
+ @font-face {
+  src: url("../fonts/");
+  font-family: "MinionPro-Bold";
+} 
+
+/* font-size: 14px; */
+/* text-transform: uppercase | lowercase | capitalize; */
+/* text-decoration: none | underline | overline | line-through; */
+/* text-align: left | right | center | justify; */
+/* line-height: 14px; */
+
+/* Text properties */
+
+h1, h2, h3, h4, h5 {
+    font-family: MinionPro-Bold, helvetica, arial, sans-serif;
+}
+
+
+/* Color properties */
+
+/* color: red;
+color: #ff0000;
+color: rgb(255, 0, 0);
+color: rgba(255, 0, 0, 0.5);
+
+background-color: rgba(173, 216, 230, 0.4); */
+
+@font-face {
+    src: "minion-pro";
+    font-family: "minion-pro-Regular";
+  }
+  
+  @font-face {
+    src: url("../fonts/MinionPro-Bold.otf");
+    font-family: "MinionPro-Bold";
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .links {
+    display: flex;
+    
+    list-style: none;
+  }
+  .espacio-pag{
+    padding-top: 3%;
+  }
+  .links a {
+  
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+   
+  }
+  .links li {
+    margin-right: 64px;
+  }
+  .padding {
+    padding-left: 64px;
+  }
+  .profile {
+    display: flex; 
+    flex-direction: row-reverse;
+  }
+  .text-home-destacado{
+    font-size: 48px;
+    padding-top: 10%;
+  }
+  .listado-caracteristicas{
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-block-start: 10%;
+  }
+  .profile-img {
+    width: 50%;
+  }
+  
+  .profile-info{
+    width: 50%;
+    
+
+    font-family: "MinionPro-Bold";
+  }
+  .h1 {
+    font-family: "MinionPro-Bold";
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    width: 48%;
+    background: black;
+    color: white;
+    border-radius: 2px;
+    height: 300px;
+    position: relative;
+  }
+  .block2{
+    background-color: #804F37;
+  }
+  .lista-home {
+    font-family: "MinionPro-Bold";
+
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 64px;
+    list-style: none;
+    font-size: 48px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .container .inspiration {
+      width: 23%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+      margin-top: 0;
+    }
+
+    .lista-home a {
+      text-decoration: none;
+      color: black;
+      font-family: "MinionPro-Bold";
+   }
+   ​
+   .lista-home a:visited { 
+      text-decoration: none;
+      color: black;
+      font-family: Helvetica, Arial, sans-serif;
+   }
+   .margen-abajo {
+    border-bottom: 30px solid #804F37;
+   }
+
+   .divider {
+    border-bottom: 2px solid black;
+    
+}
+@media only screen and (max-width:414px) {
+  html {
+    font-size: 16px;
+  }
+  .box {
+    font-size: 2rem;
+  }
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.container2 .cases {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  .images-entrada {
+    flex-direction: columns
+  }
